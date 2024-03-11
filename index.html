@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Containers com BootStrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #0463c9;
+      color: #e2e6ec;
+    }
+    footer {
+      background-color: #f44646;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-primary text-light py-4">
+    <div class="container">
+      <h1> Pernambuco meu país! <img src="https://www.gov.br/receitafederal/pt-br/assuntos/educacao-fiscal/educacao-fiscal/naf/nucleos/arquivos-e-imagens/pernambuco.png/@@images/image.png" style="height: 50px;" alt="bandeira do estado de Pernambuco"></h1>
+      <nav>
+        <ul class="list-inline">
+          <li class="list-inline-item" ><a href="#data"  style="color: red;"> <strong> HOME</strong></a></li>
+          <li class="list-inline-item"><a href=""  style="color: red;"><strong>SOBRE</strong></a></li>
+          <li class="list-inline-item"><a href="#"  style="color: red;"><strong>CONTATO</strong></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container" >
+     <h1 style="color: yellow;">CONHEÇA MAIS SOBRE PERNAMBUCO</h1></div>
+  <div class="container">
+    <section class="my-5">
+      <h2 id="data">Data Magna</h2>
+      <p> É uma celebração anual que ocorre em 6 de março para comemorar a Revolução Pernambucana de 1817, um dos movimentos de independência mais importantes do Brasil. Há 207 anos Pernambuco se desprendeu do Brasil colônia, e se tornou um país por 75 dias. </p>
+    </section>
+
+    <section class="my-5">
+      <h2>Carnaval</h2>
+      <p>O carnaval pernambucano é uma festa popular conhecida por sua diversidade cultural e animação. Destacam-se os famosos blocos de rua, como o Galo da Madrugada em Recife, o  Maracatu Rural em Nazaré da Mata, bonecos gigantes em Olinda e Papangus em Bezerros</p>
+    </section>
+
+    <section class="my-5">
+      <h2>Litoral</h2>
+      <p>O litoral pernambucano oferece uma variedade de praias deslumbrantes, cada uma com sua própria beleza única. Desde as praias urbanas movimentadas de Boa Viagem até as praias tranquilas e intocadas de Fernando de Noronha, há opções para todos os gostos e estilos de viagem..</p>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      &copy; <span id="year"></span> Desenvolvido por Emily Cavalcanti 
+    </div>
+  </footer>
+
+  <script>
+    // Define o ano atual no rodapé
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
